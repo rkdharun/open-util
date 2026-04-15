@@ -1,0 +1,284 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "devutils",
+  "title": "DevUtils",
+  "description": "46+ developer utilities — encoding, formatting, generating, parsing, and more. Works entirely offline.",
+  "icon": "extension-icon.png",
+  "author": "dharun",
+  "categories": ["Developer Tools", "Productivity"],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "json-formatter",
+      "title": "JSON Formatter / Validator",
+      "description": "Format, validate, and minify JSON",
+      "mode": "view"
+    },
+    {
+      "name": "base64",
+      "title": "Base64 Encoder / Decoder",
+      "description": "Encode and decode Base64 strings",
+      "mode": "view"
+    },
+    {
+      "name": "url-encoder",
+      "title": "URL Encoder / Decoder",
+      "description": "Encode and decode URL strings",
+      "mode": "view"
+    },
+    {
+      "name": "html-entity",
+      "title": "HTML Entity Encoder / Decoder",
+      "description": "Encode and decode HTML entities",
+      "mode": "view"
+    },
+    {
+      "name": "backslash-escaper",
+      "title": "Backslash Escaper / Unescaper",
+      "description": "Escape or unescape backslash characters in strings",
+      "mode": "view"
+    },
+    {
+      "name": "hex-ascii",
+      "title": "Hex ↔ ASCII Converter",
+      "description": "Convert between hexadecimal and ASCII strings",
+      "mode": "view"
+    },
+    {
+      "name": "yaml-json",
+      "title": "YAML ↔ JSON Converter",
+      "description": "Convert between YAML and JSON formats",
+      "mode": "view"
+    },
+    {
+      "name": "json-csv",
+      "title": "JSON ↔ CSV Converter",
+      "description": "Convert between JSON and CSV formats",
+      "mode": "view"
+    },
+    {
+      "name": "xml-beautifier",
+      "title": "XML Beautifier / Minifier",
+      "description": "Format and minify XML",
+      "mode": "view"
+    },
+    {
+      "name": "html-beautifier",
+      "title": "HTML Beautifier / Minifier",
+      "description": "Format and minify HTML code",
+      "mode": "view"
+    },
+    {
+      "name": "html-to-jsx",
+      "title": "HTML to JSX Converter",
+      "description": "Convert HTML markup to JSX syntax",
+      "mode": "view"
+    },
+    {
+      "name": "css-beautifier",
+      "title": "CSS Beautifier / Minifier",
+      "description": "Format and minify CSS code",
+      "mode": "view"
+    },
+    {
+      "name": "js-beautifier",
+      "title": "JavaScript Beautifier / Minifier",
+      "description": "Format and minify JavaScript code",
+      "mode": "view"
+    },
+    {
+      "name": "sql-formatter",
+      "title": "SQL Formatter",
+      "description": "Format SQL queries for readability",
+      "mode": "view"
+    },
+    {
+      "name": "uuid-generator",
+      "title": "UUID / ULID Generator",
+      "description": "Generate UUIDs (v1/v4), ULIDs, and Nano IDs",
+      "mode": "view"
+    },
+    {
+      "name": "hash-generator",
+      "title": "Hash Generator",
+      "description": "Generate MD5, SHA1, SHA256, SHA512 hashes",
+      "mode": "view"
+    },
+    {
+      "name": "random-string",
+      "title": "Random String Generator",
+      "description": "Generate random strings with customizable options",
+      "mode": "view"
+    },
+    {
+      "name": "regexp-tester",
+      "title": "RegExp Tester",
+      "description": "Test regular expressions with live matching",
+      "mode": "view"
+    },
+    {
+      "name": "string-inspector",
+      "title": "String Inspector",
+      "description": "Analyze string properties: length, bytes, lines, words",
+      "mode": "view"
+    },
+    {
+      "name": "string-case",
+      "title": "String Case Converter",
+      "description": "Convert between camelCase, snake_case, PascalCase, kebab-case, etc.",
+      "mode": "view"
+    },
+    {
+      "name": "text-diff",
+      "title": "Text Diff Checker",
+      "description": "Compare and highlight differences between two texts",
+      "mode": "view"
+    },
+    {
+      "name": "line-sort",
+      "title": "Line Sort / Dedupe",
+      "description": "Sort, reverse, and deduplicate lines of text",
+      "mode": "view"
+    },
+    {
+      "name": "unix-timestamp",
+      "title": "Unix Time Converter",
+      "description": "Convert Unix timestamps to human-readable dates and vice versa",
+      "mode": "view"
+    },
+    {
+      "name": "url-parser",
+      "title": "URL Parser",
+      "description": "Parse and analyze URL components",
+      "mode": "view"
+    },
+    {
+      "name": "cron-parser",
+      "title": "Cron Job Parser",
+      "description": "Parse and explain cron job expressions",
+      "mode": "view"
+    },
+    {
+      "name": "jwt-debugger",
+      "title": "JWT Debugger",
+      "description": "Decode and inspect JSON Web Tokens",
+      "mode": "view"
+    },
+    {
+      "name": "json-path",
+      "title": "JSON Path Selector",
+      "description": "Extract data from JSON using JSONPath expressions",
+      "mode": "view"
+    },
+    {
+      "name": "color-converter",
+      "title": "Color Converter",
+      "description": "Convert colors between Hex, RGB, HSL, and more",
+      "mode": "view"
+    },
+    {
+      "name": "number-base",
+      "title": "Number Base Converter",
+      "description": "Convert numbers between binary, octal, decimal, and hexadecimal",
+      "mode": "view"
+    },
+    {
+      "name": "lorem-ipsum",
+      "title": "Lorem Ipsum Generator",
+      "description": "Generate placeholder lorem ipsum text",
+      "mode": "view"
+    },
+    {
+      "name": "markdown-preview",
+      "title": "Markdown Preview",
+      "description": "Preview Markdown rendered as formatted text",
+      "mode": "view"
+    },
+    {
+      "name": "html-preview",
+      "title": "HTML Preview",
+      "description": "Preview rendered HTML in your default browser",
+      "mode": "view"
+    },
+    {
+      "name": "curl-to-code",
+      "title": "cURL to Code",
+      "description": "Convert cURL commands to Python, JavaScript, Go, and more",
+      "mode": "view"
+    },
+    {
+      "name": "x509-decoder",
+      "title": "X.509 Certificate Decoder",
+      "description": "Decode X.509 SSL/TLS certificates to human-readable format",
+      "mode": "view"
+    },
+    {
+      "name": "qr-code",
+      "title": "QR Code Generator",
+      "description": "Generate QR codes from text",
+      "mode": "view"
+    },
+    {
+      "name": "svg-to-css",
+      "title": "SVG to CSS Converter",
+      "description": "Convert SVG code to CSS background with Base64 or URL encoding",
+      "mode": "view"
+    },
+    {
+      "name": "php-serializer",
+      "title": "PHP Serializer / Unserializer",
+      "description": "Serialize and unserialize PHP data format",
+      "mode": "view"
+    },
+    {
+      "name": "query-string-json",
+      "title": "Query String ↔ JSON",
+      "description": "Convert URL query strings to JSON and back",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.79.0",
+    "change-case": "^4.1.2",
+    "colord": "^2.9.3",
+    "cronstrue": "^2.50.0",
+    "diff": "^7.0.0",
+    "fast-xml-parser": "^4.4.1",
+    "he": "^1.2.0",
+    "js-beautify": "^1.15.1",
+    "js-yaml": "^4.1.0",
+    "jsonpath-plus": "^7.2.0",
+    "lorem-ipsum": "^2.0.8",
+    "marked": "^12.0.0",
+    "nanoid": "^3.3.7",
+    "node-forge": "^1.3.1",
+    "papaparse": "^5.4.1",
+    "qrcode": "^1.5.3",
+    "sql-formatter": "^15.4.2",
+    "ulid": "^2.3.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.11",
+    "@types/diff": "^5.2.3",
+    "@types/he": "^1.2.3",
+    "@types/js-beautify": "^1.14.3",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "22.13.10",
+    "@types/node-forge": "^1.3.11",
+    "@types/papaparse": "^5.3.14",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "19.0.10",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
