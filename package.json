@@ -105,6 +105,12 @@
       "mode": "view"
     },
     {
+      "name": "hmac-generator",
+      "title": "HMAC Signature Generator",
+      "description": "Generate HMAC-SHA256, HMAC-SHA512, HMAC-SHA1, HMAC-MD5 signatures",
+      "mode": "view"
+    },
+    {
       "name": "random-string",
       "title": "Random String Generator",
       "description": "Generate random strings with customizable options",

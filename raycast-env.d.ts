@@ -45,6 +45,8 @@ declare namespace Preferences {
   export type UuidGenerator = ExtensionPreferences & {}
   /** Preferences accessible in the `hash-generator` command */
   export type HashGenerator = ExtensionPreferences & {}
+  /** Preferences accessible in the `hmac-generator` command */
+  export type HmacGenerator = ExtensionPreferences & {}
   /** Preferences accessible in the `random-string` command */
   export type RandomString = ExtensionPreferences & {}
   /** Preferences accessible in the `regexp-tester` command */
@@ -124,6 +126,8 @@ declare namespace Arguments {
   export type UuidGenerator = {}
   /** Arguments passed to the `hash-generator` command */
   export type HashGenerator = {}
+  /** Arguments passed to the `hmac-generator` command */
+  export type HmacGenerator = {}
   /** Arguments passed to the `random-string` command */
   export type RandomString = {}
   /** Arguments passed to the `regexp-tester` command */
