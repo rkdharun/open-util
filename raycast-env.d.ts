@@ -91,6 +91,8 @@ declare namespace Preferences {
   export type PhpSerializer = ExtensionPreferences & {}
   /** Preferences accessible in the `query-string-json` command */
   export type QueryStringJson = ExtensionPreferences & {}
+  /** Preferences accessible in the `sha256-hmac` command */
+  export type Sha256Hmac = ExtensionPreferences & {}
 }
 
 declare namespace Arguments {
@@ -172,5 +174,7 @@ declare namespace Arguments {
   export type PhpSerializer = {}
   /** Arguments passed to the `query-string-json` command */
   export type QueryStringJson = {}
+  /** Arguments passed to the `sha256-hmac` command */
+  export type Sha256Hmac = {}
 }
 

@@ -241,6 +241,12 @@
       "title": "Query String ↔ JSON",
       "description": "Convert URL query strings to JSON and back",
       "mode": "view"
+    },
+    {
+      "name": "sha256-hmac",
+      "title": "SHA-256 HMAC Generator",
+      "description": "Generate HMAC-SHA256 signatures for messages",
+      "mode": "view"
     }
   ],
   "dependencies": {
