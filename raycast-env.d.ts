@@ -93,6 +93,10 @@ declare namespace Preferences {
   export type QueryStringJson = ExtensionPreferences & {}
   /** Preferences accessible in the `sha256-hmac` command */
   export type Sha256Hmac = ExtensionPreferences & {}
+  /** Preferences accessible in the `luhn-validator` command */
+  export type LuhnValidator = ExtensionPreferences & {}
+  /** Preferences accessible in the `image-converter` command */
+  export type ImageConverter = ExtensionPreferences & {}
 }
 
 declare namespace Arguments {
@@ -176,5 +180,9 @@ declare namespace Arguments {
   export type QueryStringJson = {}
   /** Arguments passed to the `sha256-hmac` command */
   export type Sha256Hmac = {}
+  /** Arguments passed to the `luhn-validator` command */
+  export type LuhnValidator = {}
+  /** Arguments passed to the `image-converter` command */
+  export type ImageConverter = {}
 }
 

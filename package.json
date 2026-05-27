@@ -247,6 +247,18 @@
       "title": "SHA-256 HMAC Generator",
       "description": "Generate HMAC-SHA256 signatures for messages",
       "mode": "view"
+    },
+    {
+      "name": "luhn-validator",
+      "title": "Luhn Algorithm Validator",
+      "description": "Validate numbers using the Luhn (mod-10) algorithm",
+      "mode": "view"
+    },
+    {
+      "name": "image-converter",
+      "title": "Image Converter",
+      "description": "Convert images between PNG, JPEG, WebP, TIFF, BMP, GIF, and SVG",
+      "mode": "view"
     }
   ],
   "dependencies": {
@@ -287,7 +299,7 @@
     "typescript": "^5.4.5"
   },
   "scripts": {
-    "build": "ray build -e dist",
+    "build": "ray build -e dist -o dist",
     "dev": "ray develop",
     "fix-lint": "ray lint --fix",
     "lint": "ray lint",
